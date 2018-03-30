@@ -1,0 +1,23 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+ public class DoubleArrayList 
+{ public static void main(String[] args)
+{List <Double> testList =new ArrayList(); 
+		testList.add(0.54);
+		testList.add(0.71);
+		testList.add(0.71);
+		testList.add(0.71);
+		testList.add(0.92);
+		testList.add(0.12);
+		testList.add(0.65);
+		testList.add(0.34);
+		testList.add(0.62);
+// Sorts arr[] in descending order
+Collections.sort(testList);
+		 System.out.printf("The sorted list in ascending order is "  + testList);
+ // Sorts arr[] in descending order
+   Collections.sort(testList, Collections.reverseOrder());
+ System.out.printf(" \nThe sorted list in descending order is "  + testList);
+ }}
