@@ -1,0 +1,22 @@
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Alphabaticalorder
+{
+ public static void main(String[] args)
+ {  
+     List <String> testList =new ArrayList(); 
+		testList.add("Akshay");
+		testList.add("Shivam");
+		testList.add("Nipun");
+		testList.add("Dipesh");
+	// Sorts arr[] in descending order
+ Collections.sort(testList);
+ System.out.printf("The sorted list in ascending order is "  + testList);
+      // Sorts arr[] in descending order
+ Collections.sort(testList, Collections.reverseOrder());
+      System.out.printf(" \nThe sorted list in descending order is "  + testList);
+      }}
+
